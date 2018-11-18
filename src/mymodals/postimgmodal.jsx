@@ -8,8 +8,6 @@ import { AppContext } from "../App.context"
 
 export default Modal.Decorator(
     class extends React.Component {
-        static contextType = Modal.Context;
-
         constructor(props) {
             super(props);
 
