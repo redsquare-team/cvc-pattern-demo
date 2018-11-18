@@ -10,6 +10,9 @@ It also provides a wrapper method to fully extends this component via Decorator 
 
 These sources also contains an example of how to use Context API to replace Redux in most cases.
 
+
+DEMO: [https://redsquare-team.github.io/cvc-pattern-demo/build/](https://redsquare-team.github.io/cvc-pattern-demo/build/)
+
 ## WHAT YOU SHOULD KNOW BEFORE START (SUGGESTED):
  
  * ReactJS
