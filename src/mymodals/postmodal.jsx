@@ -40,7 +40,7 @@ export default Modal.Decorator(
                         <AppContext.Consumer>
                             {app =>
                                 <ModalBody>
-                                    <input type="text" onChange={this.onTextChange}></input>
+                                    <input type="text" value={this.state.text} onChange={this.onTextChange}></input>
                                     <Button onClick={() => this.send(app)}>SEND</Button>
                                 </ModalBody>
                             }

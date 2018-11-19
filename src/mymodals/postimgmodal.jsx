@@ -46,7 +46,7 @@ export default Modal.Decorator(
                         <AppContext.Consumer>
                             {app =>
                                 <ModalBody>
-                                    <input type="file" onChange={this.onImgChange}></input>
+                                    <input type="file" onChange={this.onImgChange} accept="image/*"></input>
                                     <Button onClick={() => this.send(app)}>SEND</Button>
                                 </ModalBody>
                             }
