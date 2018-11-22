@@ -3,6 +3,8 @@ import { Modal } from "reactstrap";
 
 
 // CONTEXT
+// This is simply the React API to create a Context
+// that we will fill with a SMART state via Controller
 var Context = React.createContext();
 
 // VIEW: STATELESS COMPONENT (DUMB)
